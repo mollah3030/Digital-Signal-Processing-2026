@@ -1,0 +1,10 @@
+window_samples,window_ms,bin_spacing_hz,event_start_s,event_end_s,event_length_s,spectral_peaks
+512,32.0,31.25,2.27,2.43,0.16,9
+2048,128.0,7.81,2.24,2.45,0.21,43
+
+band_low_hz,band_high_hz,energy_percent
+0,500,0.0
+500,1000,28.1
+1000,2000,50.8
+2000,4000,21.0
+4000,8000,0.2
