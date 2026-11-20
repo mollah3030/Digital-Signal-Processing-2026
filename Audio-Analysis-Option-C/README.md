@@ -76,4 +76,4 @@ The analysis uses a single recording with one bark, so the time interval and fre
 
 ## AI usage
 
-AI (Claude) was used for learning and for help with the notebook code. The numbers above are the outputs stored in the executed notebook.
+Used Solely for learning purpose.
