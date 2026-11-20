@@ -99,4 +99,4 @@ The current input x[n] now has more influence, because its weight is 0.8 and the
 
 ## AI usage
 
-AI (Claude) was used for learning: to understand how the coefficient vector `b` in `filter` is related to H(z). The hand calculations were compared with the MATLAB output.
+AI was used for learning: to understand how the coefficient vector `b` in `filter` is related to H(z). The hand calculations were compared with the MATLAB output.
