@@ -69,4 +69,4 @@ Everything between 45 and 55 Hz is removed, also useful sound. This melody has n
 
 ## AI use
 
-AI (Claude) was used for learning and for help with the MATLAB script and the test audio file. The numbers above are printed by the script.
+AI  was used for learning and for help with the MATLAB script and the test audio file. The numbers above are printed by the script.
