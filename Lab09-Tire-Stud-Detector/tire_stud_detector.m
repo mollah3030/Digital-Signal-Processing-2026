@@ -85,7 +85,7 @@ for i = 1:numel(imageFiles)
         imageFiles{i}, size(Igray,1), size(Igray,2), tireArea, CC.NumObjects, studCount, density, label);
 
     % ---------- 8) Visualization ----------
-    figure;
+    figure('Position', [100 100 1500 620]);
     subplot(1,3,1);
     imshow(I); title(sprintf('Input: %s', imageFiles{i}), 'Interpreter','none');
 
@@ -94,7 +94,7 @@ for i = 1:numel(imageFiles)
 
     subplot(1,3,3);
     imshow(I); hold on;
-    visboundaries(studMask, 'LineWidth', 0.7);
+    visboundaries(imdilate(studMask, strel('disk', 2)), 'LineWidth', 0.7);   % circle drawn a little larger than the stud
 
     if isStudded
         title(sprintf('STUDDED TIRE (studs: %d)', studCount));
