@@ -6,7 +6,7 @@ Goal of the lab: combine filtering, frequency analysis, edges and enhancement in
 
 ## Image and problem
 
-- **Image:** `football.jpg`, a MATLAB sample image from the Image Processing Toolbox (256 × 320 pixels after conversion to grayscale). I used a sample image and not a photo of my own.
+- **Image:** `football.jpg`, a MATLAB sample image from the Image Processing Toolbox (256 × 320 pixels after conversion to grayscale). I used a sample image .
 - **Problem:** get a clean outline of the object in a photo that is corrupted by salt-and-pepper noise. An edge detector run directly on a noisy image marks the noise as edges, so the image has to be prepared first.
 - **Setup:** the noise is added in the script (`imnoise`, salt & pepper, 3 % of the pixels, `rng(1)`). This way the clean image is known and every stage can be measured against it.
 
