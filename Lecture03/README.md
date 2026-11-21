@@ -75,8 +75,4 @@ Smoothing sensor readings in an embedded system, for example a temperature or ba
 
 ## AI Usage
 
-Tool used: Claude
-
-How I used it: AI was used for learning. I used it to understand what `conv(...,'same')` does and why a long moving average lowers the amplitude of a sine wave.
-
-What I verified or changed: I ran the script and compared the figures with the explanation. I calculated the moving-average gain for 5 and 15 points by hand (0.90 and 0.30) and checked that the amplitudes in `filter_comparison.png` agree. I added an RMSE printout at the end of the script as a numerical check.
+AI was used for learning.

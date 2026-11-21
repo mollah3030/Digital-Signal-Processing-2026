@@ -70,14 +70,4 @@ The script saves the three figures with `saveas(gcf, ...)`:
 
 ## Task 6: Use AI Responsibly
 
-**AI Tool Used:** Claude
-
-**Prompt:** "Explain how to plot several sine waves with `subplot` in MATLAB and how to save a figure as a PNG file."
-
-**What AI Suggested:** AI was used for learning. It explained how `subplot(3,1,k)` places several plots in one figure, how `randn` creates random noise, and that `saveas(gcf, 'name.png')` saves the current figure.
-
-**Did the code work immediately?** Yes, the script ran without errors.
-
-**What did you modify?** I used a loop for the three frequencies and the three amplitudes, and I checked that the titles, labels and file names match the assignment.
-
-**How did you verify the result?** I counted the cycles in each plot (2, 5 and 10 in one second), checked that the peaks are at 0.5, 1 and 2 in the amplitude figure, and checked that the three PNG files were created.
+AI was used for learning.

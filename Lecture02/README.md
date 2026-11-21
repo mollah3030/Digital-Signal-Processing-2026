@@ -70,8 +70,4 @@ Use **100 Hz** with an analog anti-aliasing low-pass filter before the ADC. It i
 
 ## AI Usage
 
-- **AI Tool Used:** Claude
-- **Prompt(s):** "Explain aliasing and the Nyquist Sampling Theorem with a 10 Hz sine wave example, and how to overlay sampled points on a signal in MATLAB."
-- **Summary of AI Response:** AI was used for learning. It explained that the sampling frequency must be more than twice the highest signal frequency, that a signal sampled too slowly appears at a lower alias frequency, and that `stem` can be drawn over `plot` with `hold on`.
-- **What I Modified:** I put the five sampling frequencies in a loop, added a printout of the sampling period and samples per cycle, and used the file names required by the assignment.
-- **How I Verified the Results:** I calculated the Nyquist rate by hand (2 · 10 = 20 Hz), calculated the alias for 15 Hz (|10 − 15| = 5 Hz) and compared it with the figure, checked by hand that sin(π·k) = 0 explains the flat 20 Hz result, and checked that all six PNG files were created.
+AI was used for learning.

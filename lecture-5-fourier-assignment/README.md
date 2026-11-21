@@ -15,7 +15,7 @@ Last digit used in Exercise 3: **d = 3**
 
 ## AI-use note
 
-AI (Claude) was used for learning: to understand MATLAB syntax (`fft` scaling, `subplot`, zero-padding with `fft(x, N)`) and to check my explanations. The numbers in this README are the values printed by the scripts.
+AI was used for learning.
 
 ---
 

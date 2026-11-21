@@ -72,4 +72,4 @@ The comparison uses one image, one noise realisation and one fixed setting per f
 
 ## AI usage
 
-AI (Claude) was used for learning: to understand what PSNR and SSIM measure and how the Live Script is structured. The numbers above are the outputs stored in the executed Live Script.
+AI was used for learning.

@@ -47,4 +47,4 @@ A 7 kHz tone needs a sampling frequency above 14 kHz. Below that, the samples of
 
 ## AI Usage
 
-AI (Claude) was used for learning: to understand how the alias frequency is calculated and what `periodogram` shows.
+AI was used for learning.

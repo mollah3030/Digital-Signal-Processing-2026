@@ -182,4 +182,4 @@ Limitation: both experiments use ideal, artificial disturbances. The hum is a pe
 
 ## AI usage
 
-AI (Claude) was used for learning: to understand `filtfilt`, how `freqz` values relate to the filtered amplitudes, and how to measure a single frequency component. All numbers in this report are printed by `filter_assignment.m`.
+AI was used for learning.
