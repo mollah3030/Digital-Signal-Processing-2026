@@ -1,8 +1,8 @@
 %% Lab 6: Mini Project - Your Image Pipeline
 % Md Mohiuddin Mollah - Digital Signal Processing 2026
 %
-% Problem: get a clean outline of the object in a photo that is noisy
-% (salt & pepper) and has low contrast.
+% Problem: get a clean outline of the object in a photo that is corrupted
+% by salt & pepper noise.
 % Image: football.jpg, a MATLAB sample image (Image Processing Toolbox).
 % The noise is added in the script, so the clean image is known and the
 % result of each stage can be measured.
